@@ -21,7 +21,7 @@ function NavComponent() {
 
             <Link className='nav-link fw-bold  text-center  ' to ="/"> Home</Link>
             <Link className='nav-link  fw-bold text-center '  to ="products"> Products</Link>
-            <Link className='nav-link  fw-bold  text-center' to ="/loader"> About us</Link>
+            {/* <Link className='nav-link  fw-bold  text-center' to ="loader"> About us</Link> */}
         
           </Nav>
           <div className='ms-5' >
