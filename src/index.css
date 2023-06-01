@@ -48,9 +48,18 @@ code {
   height: 380px;
 }
 
+<<<<<<< HEAD
 /* .aaa{
   background-image: url("./imgs/wave-transparent-modern-background_1055-6187.avif");
 } */
 .text-con{
   border-bottom: 1px solid black;
 }
+=======
+.aaa{
+  /* background-image: url("./imgs/wave-transparent-modern-background_1055-6187.avif"); */
+}
+.text-con{
+  border-bottom: 1px solid black;
+}
+>>>>>>> 15b9e8c1228b0a4b8750d060a7a608b1389d2752
