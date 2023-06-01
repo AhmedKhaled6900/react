@@ -48,9 +48,96 @@ code {
   height: 380px;
 }
 
-.aaa{
+/* .aaa{
   background-image: url("./imgs/wave-transparent-modern-background_1055-6187.avif");
-}
+} */
 .text-con{
   border-bottom: 1px solid black;
+}
+.Bounce{
+  width: 25px;
+    height: 25px;
+    margin: 0  auto;
+    background-color: orangered;
+    border-radius: 50%;
+     position: absolute; 
+     top: 50%;
+    left: 50%; 
+    animation: Bounce 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate;
+    box-shadow: 0 0 .8rem orangered;
+
+}
+
+.right{
+  animation: right 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate; 
+}
+.top{
+  animation: top 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate;
+}
+.bottom{
+  animation: bottom 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate;
+}
+.left{
+  animation: left 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate;
+
+}
+/* @keyframes Bounce  { from {
+transform: translateY(0);
+}
+to{
+  transform: translateY(-200px);
+}
+} */
+.Bounce1{
+  /* width: 25px;
+    height: 25px;
+    margin: 0  auto;
+    background-color: red;
+    border-radius: 50%;
+     position: absolute; 
+     top: 50%;
+    left: 50%;  */
+    /* animation: Bounce 0.5s cubic-bezier(.19,.57,.3,.98) infinite alternate; */
+
+}
+
+@keyframes top { from {
+  transform: translateY(0);
+  }
+  to{
+    transform: translateY(50px);
+  }
+  }
+
+
+
+@keyframes right { from {
+transform: translateX(0);
+}
+to{
+  transform: translateX(50px);
+}
+}
+
+
+
+@keyframes bottom { from {
+transform: translateY(0);
+}
+to{
+  transform: translateY(-50px);
+}
+}
+
+@keyframes left { from {
+transform: translateX(0);
+}
+to{
+  transform: translateX(-50px);
+}
+}
+.bounce-container{
+  position: absolute;
+  background-color: antiquewhite;
+  height: 100%;
 }
