@@ -1,5 +1,6 @@
 import {
-  createBrowserRouter,
+  // createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import Root from "./layout/Root";
@@ -8,7 +9,7 @@ import Root from "./layout/Root";
 // import Login from "./layout/login";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Root />,
