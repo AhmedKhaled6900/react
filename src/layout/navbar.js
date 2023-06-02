@@ -12,7 +12,7 @@ function NavComponent() {
       <Container fluid>
         <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className='justify-content-end'>
+        <Navbar.Collapse id="" className='justify-content-end'>
           <Nav
             className="my-2 my-lg-0"
             style={{ maxHeight: '100px' }}

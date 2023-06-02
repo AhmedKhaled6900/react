@@ -29,12 +29,12 @@ function Home() {
 
 
 
-      <Container  fluid >
+      <Container  fluid className='p-0' >
 {/* 
 {loading&&<Loader></Loader>}
 {!loading&& */}
 
-<Container fluid className='home animate__animated animate__fadeIn    --animate-duration: 2s;'  >
+<Container fluid className='home  animate__animated animate__fadeIn    --animate-duration: 2s;'  >
 
 
 <Container className='mb-lg-5'>

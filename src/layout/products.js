@@ -7,11 +7,11 @@ import tick from "../imgs/tick.png"
 import marketer from "../imgs/marketer.png"
 function Products() {
     return ( 
-<Container className="mt-5 pt-5  animate__animated animate__fadeIn    --animate-duration: 2s;">
+<Container className="mt-5 pt-5 main-cont  animate__animated animate__fadeIn    --animate-duration: 2s;">
     <Container>
     <Row>
         <Col lg={6}>
-        <h1 className="mt-3">
+        <h1 className="mt-3 ">
             Design Professionals
             </h1>
         <div className="text-con mt-3">
@@ -25,29 +25,29 @@ personality of the person.
         </div>
         <div className="text-con mt-3">
             <h3>
-            Effortless Validation for
+            Accessory makers
             </h3>
             <h6 className="pb-3"> 
-            The Myspace page defines the individual,his or her characteristics, traits, personal choices and the overall
-personality of the person.
+            While most people enjoy casino gambling, sports betting,
+lottery and bingo playing for the fun.
             </h6>
         </div>
         <div className="text-con mt-3">
             <h3>
-            Effortless Validation for
+            Alterationists
             </h3>
             <h6 className="pb-3">
-            The Myspace page defines the individual,his or her characteristics, traits, personal choices and the overall
-personality of the person.
+            If you are looking for a new way to promote your business
+that won't cost you money,
             </h6>
         </div>
         <div className="text-con mt-3">
             <h3>
-            Effortless Validation for
+            Custom Design designers
             </h3>
             <h6 className="pb-3">
-            The Myspace page defines the individual,his or her characteristics, traits, personal choices and the overall
-personality of the person.
+            If you are looking for a new way to promote your business
+that won't cost you more money,
             </h6>
         </div>
         </Col>

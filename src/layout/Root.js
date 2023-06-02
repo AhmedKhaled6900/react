@@ -7,6 +7,7 @@ import Home from './Home';
 import { Outlet } from 'react-router-dom';
 // import Footer from './footer';
 import Loader from './loader';
+import Footer from './footer';
 
 function Root() {
 
@@ -15,7 +16,7 @@ function Root() {
    useEffect(()=>{
       setTimeout(() => {
          setLoading(false)
-      }, 4000);
+      }, 2000);
    })
     return ( 
         <ThemeProvider
@@ -25,10 +26,14 @@ function Root() {
 <NavComponent></NavComponent>
 
 {loading&&<Loader></Loader>} 
-  {!loading&&
-<Outlet></Outlet> 
-  
+  {!loading&&<div>
+
+    <Outlet></Outlet> 
+<Footer></Footer>
+  </div>
+
   } 
+
 
 
 

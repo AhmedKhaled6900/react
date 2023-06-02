@@ -12,6 +12,8 @@ function Loader() {
 </div>
 <div className="Bounce left">
 </div>
+<div className="Bounce threed">
+</div>
 
 
         </Container>
