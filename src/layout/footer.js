@@ -5,13 +5,13 @@ function Footer() {
 
         <Container fluid className="pt-5 pb-3 footer" >
 <Row>
-<Col className="col-6 d-flex justify-content-center align-items-center" lg={4}>
+<Col className="col d-flex justify-content-center align-items-center mb-3 pt-lg-5" lg={4}>
 <img src={logo} alt="" />
 </Col>
-<Col className="col-6" lg={4}>
-<h4 className="text-center">Follow us</h4>
+<Col className="col" lg={4}>
+<h4 className="text-center fw-bolder pb-3">Follow us</h4>
 <div>
-<ul className="d-flex gap-1 justify-content-around "  >
+<ul className="d-flex gap-1 justify-content-around p-0 w-50 m-auto"  >
     <li><i className="bi bi-whatsapp    "    ></i></li>
     <li><i className="bi bi-facebook"></i></li>
     <li><i className="bi bi-envelope"></i></li>
