@@ -25,12 +25,12 @@ function NavComponent() {
             {/* <Link className='nav-link  fw-bold  text-center' to ="loader"> About us</Link> */}
         
           </Nav>
-          <div className='ms-5' >
+          <div className='ms-lg-5 mt-5 mt-lg-0 d-flex justify-content-center ' >
             <Link to='/login'>
-            <Button className='me-4 btn'>Log in</Button>
+            <Button className=' me-2 btn'>Log in</Button>
 
             </Link>
-            <Button > sign up  </Button>
+            <Button className='ms-2' > sign up  </Button>
           </div>
         </Navbar.Collapse>
       </Container>

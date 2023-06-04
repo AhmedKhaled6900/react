@@ -53,7 +53,7 @@ function Home() {
      </div>
      <div className='d-flex justify-content-center'>
         <Button className='me-3 fw-bold' >Get Started</Button>
-        <img  className='img-fluid ' src={play} alt="" />
+        {/* <img  className='img-fluid ' src={play} alt="" /> */}
      </div>
   
         </Col>
