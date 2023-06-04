@@ -68,7 +68,7 @@ function Home() {
       </Row>
 </Container>
 
-  <Container className='mt-lg-5 text-center pt-lg-5 ' >
+  <Container className='mt-lg-5 text-center pt-lg-5 pb-5 ' >
 
     <Row className='mt-lg-5' >
       <Col lg={12}>

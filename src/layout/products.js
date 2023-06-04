@@ -106,7 +106,7 @@ that won't cost you more money,
     </Row>
     </Container>
 <Container>
-<Row className="mt-5 pt-5">
+<Row className="mt-5 pt-5 pb-5">
 <Col lg={6}>
 <h1> Product Managers</h1>
 <div className="mt-5 mb-5 ">

@@ -7,6 +7,8 @@ import Home from "./layout/Home";
 import Root from "./layout/Root";
 import Products from "./layout/products";
 import Loader from "./layout/loader";
+import Resources from "./layout/resources";
+import Experts from "./layout/experts";
 // import Products from "./layout/products";
 // import Home from "./layout/Home";
 // import Login from "./layout/login";
@@ -28,11 +30,22 @@ function App() {
     { 
         path:"products",
         element:<Products></Products>},
-        // {
-        //   path:"login",
-        //   element:<Login></Login>
-        // }
-    
+       
+
+        {
+          path:"resources",
+          element:<Resources></Resources>,
+
+          children:[
+{
+
+  path:"experts",
+  element:<Experts></Experts>
+}
+
+
+          ]
+        }
       ],
    
     }
