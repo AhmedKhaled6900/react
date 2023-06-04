@@ -16,7 +16,7 @@ function NavComponent() {
           <Nav
             className="my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
-            navbarScroll
+        
           >
 
             <Link className='nav-link fw-bold  text-center  ' to ="/"> Home</Link>

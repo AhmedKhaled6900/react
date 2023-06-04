@@ -1,5 +1,6 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import logo from "../imgs/logo.svg"
+import { Link } from "react-router-dom";
 function Footer() {
     return ( 
 
@@ -12,8 +13,12 @@ function Footer() {
 <h4 className="text-center fw-bolder pb-3">Follow us</h4>
 <div>
 <ul className="d-flex gap-1 justify-content-around p-0 w-50 m-auto"  >
-    <li><i className="bi bi-instagram"></i></li>
+
+    <Link to="https://www.facebook.com/profile.php?id=100005864826964">
     <li><i className="bi bi-facebook"></i></li>
+    
+    </Link>
+    <li><i className="bi bi-instagram"></i>   </li>
     <li><i className="bi bi-envelope"></i></li>
     <li><i className="bi bi-linkedin"></i></li>
 </ul>
