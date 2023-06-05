@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.8318773a.css",
-    "main.js": "/react/static/js/main.83e0e7b7.js",
+    "main.css": "/react/static/css/main.dd792ff8.css",
+    "main.js": "/react/static/js/main.fad0e6b9.js",
     "static/js/787.f56a55be.chunk.js": "/react/static/js/787.f56a55be.chunk.js",
     "static/media/oval.png": "/react/static/media/oval.6c4e33f4e2ef18813a25.png",
     "static/media/hero-img.png": "/react/static/media/hero-img.63f230d80c05eee436ce.png",
     "static/media/marketer.png": "/react/static/media/marketer.cde8144f8b2951593b31.png",
+    "static/media/Web-design-vs-web-de.avif": "/react/static/media/Web-design-vs-web-de.f34d6289524e14956dba.avif",
     "static/media/validation.png": "/react/static/media/validation.a70faacb202befbbce36.png",
     "static/media/manager.png": "/react/static/media/manager.e9007ed4127369464c63.png",
     "static/media/marketing03.png": "/react/static/media/marketing03.7e1aca167f726c196ff6.png",
@@ -17,12 +18,12 @@
     "static/media/icon2.png": "/react/static/media/icon2.ee6963ee9b38a8ced8cc.png",
     "static/media/logo.svg": "/react/static/media/logo.2b028c0cd1a07f832d53334c73e2300f.svg",
     "index.html": "/react/index.html",
-    "main.8318773a.css.map": "/react/static/css/main.8318773a.css.map",
-    "main.83e0e7b7.js.map": "/react/static/js/main.83e0e7b7.js.map",
+    "main.dd792ff8.css.map": "/react/static/css/main.dd792ff8.css.map",
+    "main.fad0e6b9.js.map": "/react/static/js/main.fad0e6b9.js.map",
     "787.f56a55be.chunk.js.map": "/react/static/js/787.f56a55be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8318773a.css",
-    "static/js/main.83e0e7b7.js"
+    "static/css/main.dd792ff8.css",
+    "static/js/main.fad0e6b9.js"
   ]
 }
