@@ -8,6 +8,7 @@ import { Outlet } from 'react-router-dom';
 // import Footer from './footer';
 import Loader from './loader';
 import Footer from './footer';
+import { Container } from 'react-bootstrap';
 
 function Root() {
 
@@ -23,23 +24,17 @@ function Root() {
         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
         minBreakpoint="xxs"
       >
+        <Container>
+          
+        </Container>
 <NavComponent></NavComponent>
 
 {loading&&<Loader></Loader>} 
   {!loading&&<div>
-
     <Outlet></Outlet> 
 <Footer></Footer>
   </div>
-
   } 
-
-
-
-
-{/* <Footer></Footer> */}
-
-
    </ThemeProvider>
      );
    

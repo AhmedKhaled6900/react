@@ -26,7 +26,7 @@ function NavComponent() {
         
           </Nav>
           <div className='ms-lg-5 mt-5 mt-lg-0 d-flex justify-content-center ' >
-            <Link to='/login'>
+            <Link to='login'>
             <Button className=' me-2 btn'>Log in</Button>
 
             </Link>

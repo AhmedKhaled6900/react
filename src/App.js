@@ -9,6 +9,11 @@ import Products from "./layout/products";
 import Loader from "./layout/loader";
 import Resources from "./layout/resources";
 import Experts from "./layout/experts";
+import Ceo from "./layout/uiux";
+import Frontend from "./layout/frontend";
+import Backend from "./layout/backend";
+import Uiux from "./layout/uiux";
+import Login from "./layout/login";
 // import Products from "./layout/products";
 // import Home from "./layout/Home";
 // import Login from "./layout/login";
@@ -30,6 +35,11 @@ function App() {
     { 
         path:"products",
         element:<Products></Products>},
+
+        {
+          path:"login",
+          element:<Login></Login>
+        },
        
 
         {
@@ -40,8 +50,26 @@ function App() {
 {
 
   path:"experts",
-  element:<Experts></Experts>
-}
+  element:<Experts></Experts>,
+
+  children:[
+    {
+      path:"uiux",
+      element:<Uiux></Uiux>
+    },
+    {
+      path:"frontend",
+      element:<Frontend></Frontend>
+    },
+    {
+      path:"backend",
+      element:<Backend></Backend>
+    }
+  ]
+},
+
+
+
 
 
           ]
