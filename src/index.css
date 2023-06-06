@@ -270,15 +270,24 @@ right: 0; */
     margin-bottom: 20px;
  
 }
+.signup-container h1{
+ 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ 
+}
 .login-form{
   max-width: 500px;
   margin: 0 auto;
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #0000005e;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border: 2px solid #00000038;
+  box-shadow: 0 0 8px black;
 }
 .form-control{
   width: 100%;
@@ -293,11 +302,12 @@ right: 0; */
   max-width: 500px;
   margin: 0 auto;
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #0000005e;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 8px wheat;
+  border: 2px solid #00000038;
+  box-shadow: 0 0 8px black;
 }
 .login-container h5:hover{
   color: orangered;

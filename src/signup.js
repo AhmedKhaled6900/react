@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Container } from 'react-bootstrap';
 import Loader from './layout/loader';
 
 const SignUp = () => {
@@ -29,9 +29,13 @@ const SignUp = () => {
   };
 
   return (
-    <div>
-      <h1>Sign Up</h1>
-      <Form className='form' onSubmit={handleSubmit}>
+
+    <Container fluid className='mt-5 pt-5 signup-container'>
+
+
+<div>
+      <h1 className='mt-5'>Sign Up</h1>
+      <Form className="form"  onSubmit={handleSubmit}>
         <Form.Group controlId="username">
           <Form.Label>Username</Form.Label>
           <Form.Control
@@ -61,14 +65,17 @@ const SignUp = () => {
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
           />
-        </Form.Group>
-        <Button type="submit">Sign Up</Button>
+        </Form.Group >
+        <Button  className='mt-3' type="submit">Sign Up</Button>
       </Form>
       {isLoggedIn && (
  <Loader></Loader>
       )}
     </div>
+    </Container>
+   
   );
 };
 
 export default SignUp;
+ 
