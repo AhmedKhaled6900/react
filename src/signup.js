@@ -30,7 +30,7 @@ const SignUp = () => {
 
   return (
 
-    <Container fluid className='mt-5 pt-5 signup-container'>
+    <Container fluid className='mt-5 pt-5 signup-container animate__animated animate__fadeIn  --animate-duration: 2s'>
 
 
 <div>

@@ -27,7 +27,7 @@ const Login = () => {
     // TODO: Send the user's email address to the server
   };
   return (
-    <Container fluid className='login-container pt-5 mt-5'>
+    <Container fluid className='login-container pt-5 mt-5 animate__animated animate__fadeIn  --animate-duration: 2s'>
   
     <div>
       <h1 className='m-5'>Login</h1>
