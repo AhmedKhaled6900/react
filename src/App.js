@@ -14,6 +14,7 @@ import Frontend from "./layout/frontend";
 import Backend from "./layout/backend";
 import Uiux from "./layout/uiux";
 import Login from "./layout/login";
+import SignUp from "./signup";
 // import Products from "./layout/products";
 // import Home from "./layout/Home";
 // import Login from "./layout/login";
@@ -39,6 +40,10 @@ function App() {
         {
           path:"login",
           element:<Login></Login>
+        },
+        {
+          path:"signup",
+          element:<SignUp></SignUp>
         },
        
 

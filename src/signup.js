@@ -1,12 +1,13 @@
-import { hover } from '@testing-library/user-event/dist/hover';
 import React, { useState } from 'react';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
-// import styles from './Login.css';
+import { Form, Button } from 'react-bootstrap';
+import Loader from './layout/loader';
 
-const Login = () => {
+const SignUp = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -16,50 +17,58 @@ const Login = () => {
       return;
     }
 
-    if (localStorage.getItem('username') === username && localStorage.getItem('password') === password) {
-      setIsLoggedIn(true);
-      window.location.href = '/';
-    } else {
-      alert('Invalid username or password');
+    if (password !== confirmPassword) {
+      alert('The passwords do not match');
+      return;
     }
+
+    localStorage.setItem('username', username);
+    localStorage.setItem('password', password);
+    setIsLoggedIn(true);
+    window.location.href = '/';
   };
-  const handleForgotPassword = () => {
-    // TODO: Send the user's email address to the server
-  };
+
   return (
-    <Container fluid className='login-container pt-5 mt-5'>
-  
     <div>
-      <h1 className='m-5'>Login</h1>
+      <h1>Sign Up</h1>
       <Form className='form' onSubmit={handleSubmit}>
         <Form.Group controlId="username">
           <Form.Label>Username</Form.Label>
           <Form.Control
             type="text"
             name="username"
-            // placeholder="Username"
+           
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
         </Form.Group>
-        <Form.Group  controlId="password">
+        <Form.Group controlId="password">
           <Form.Label>Password</Form.Label>
           <Form.Control
             type="password"
             name="password"
-            // placeholder="Password"
+          
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-        </Form.Group  >
-        <Button className='mt-4' type="submit">Login</Button><br />
-        <h5 style={{cursor:"pointer"}} className='mt-4' onClick={handleForgotPassword}>Forgot Password</h5>
+        </Form.Group>
+        <Form.Group controlId="confirmPassword">
+          <Form.Label>Confirm Password</Form.Label>
+          <Form.Control
+            type="password"
+            name="confirmPassword"
+    
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
+          />
+        </Form.Group>
+        <Button type="submit">Sign Up</Button>
       </Form>
+      {isLoggedIn && (
+ <Loader></Loader>
+      )}
     </div>
- 
-    </Container>
-
   );
 };
 
-export default Login;
+export default SignUp;

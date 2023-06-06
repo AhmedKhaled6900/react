@@ -30,7 +30,14 @@ function NavComponent() {
             <Button className=' me-2 btn'>Log in</Button>
 
             </Link>
+
+            <Link to="signup">
+
             <Button className='ms-2' > sign up  </Button>
+
+
+            </Link>
+       
           </div>
         </Navbar.Collapse>
       </Container>

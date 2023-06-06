@@ -297,10 +297,24 @@ right: 0; */
   border-radius: 10px;
   backdrop-filter: blur(15px);
   border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  box-shadow: 0 0 8px wheat;
 }
 .login-container h5:hover{
   color: orangered;
   border-bottom: 1px solid orangered;
   width: fit-content;
+}
+.signup-container{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: orangered;
+}
+.signup-container{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: orangered;
 }
